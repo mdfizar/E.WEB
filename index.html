@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-learning and earning Ltd</title>
+  <!---------mycss ------->
+  <link rel="stylesheet" href="style/main.css">
+  <!--- bootstrap css ---->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!--------- icon ----------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!------swiper css ------>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <!-- font wasema  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <!------- AOS CSS ------>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+<!-------header ------>
+<header>
+  <nav class="navbar  navbar-expand-lg">
+    <div class="container-fluid justify-content-end">
+      <button id="header-btn" style="border:none;background-color:#ffffff;" id="icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <div id="icon">
+          <i class="bi bi-list"></i>
+        </div>
+      </button>
+  
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+          <ul id="nav-bar">
+              <li class="nav-item">
+                <a class="nav-link active" href="#"><i class="bi bi-telephone"></i> +88 02-8091188 </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-telephone"></i> +88 01550-666800  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-telephone"></i> +88 01550-666900 </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-envelope-fill"></i> info@e-laeltd.com</a>
+              </li>
+          </ul>
+    </div>
+  </nav>
+  <div id="nav-container" class="container">
+    <div class="left-section pt-3">
+      <div class="left-top-section">
+        <ul>
+          <li><i class="bi bi-telephone"></i><a href="#">+88 02-8091188 </a></li>
+          <li><i class="bi bi-telephone"></i><a href="#">+88 02-8091188 </a></li>
+          <li><i class="bi bi-telephone"></i><a href="#">+88 02-8091188 </a></li>
+          <li><i class="bi bi-envelope-fill"></i><a href="#">info@e-laeltd.com</a></li>
+        </ul>
+      </div>
+      <div class="left-bottom-section">
+        <a class="button" href="#">Apply Now</a>
+      </div>
+    </div>
+    <hr>
+    <div style="flex-wrap: wrap;" class="right-section pb-3">
+      <div style="border-right: 2px solid gray;padding-right:20px;" class="d-flex gap-3 align-items-center">
+        <div class="header-image">
+          <img style="width:300px;transition: 0.4s;" src="https://e-laeltd.com/assets/img/logo.png" alt="">
+        </div>
+        <ul id="none">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT
+            <i class="fa-solid fa-angle-down"></i>
+          </a></li>
+          <li><a href="#">TRAINING
+            <i class="fa-solid fa-angle-down"></i>
+          </a></li>
+          <li><a href="#">SOFTWARE
+            <i class="fa-solid fa-angle-down"></i>
+          </a></li>
+          <li><a href="#">CAREER
+            <i class="fa-solid fa-angle-down"></i>
+          </a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#"><i class="bi bi-geo-alt"></i> BRANCH</a></li>
+        </ul>
+      </div>
+      <div class="rigth-bottom-section">
+        <div>
+         <a href="https://www.facebook.com/search/top?q=e-learning%20%26%20earning%20ltd." target="_blank"><i class="bi bi-facebook"></i></a>
+        </div>
+        <div>
+          <a href="https://www.youtube.com/@e-learningearningltd.6321" target="_blank"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+<!-------- main ------>
+<main>
+  <section id="template">
+    <!-----swiper ---->
+      <div class="swiper mySwiper">
+        <div id="slid-item" class="swiper-wrapper">
+
+          <div class="swiper-slide background-1">Slide 1
+
+          </div>
+          <div class="swiper-slide background-2">Slide 2
+
+          </div>
+          <div class="swiper-slide background-3">Slide 3
+
+          </div>
+          <div class="swiper-slide background-4">Slide 4
+
+          </div>
+          <div class="swiper-slide background-5">Slide 5
+
+          </div>
+
+        </div>
+        <div id="next" class="swiper-button-next">
+          <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div id="prev" class="swiper-button-prev">\
+          <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div  class="swiper-pagination">
+
+        </div>
+      </div>
+  </section>
+  <section id="about" class="py-5">
+    <h2 style="color:#1bbd36;font-weight: bold;" class="text-center h position-relative">ABOUT US</h2>
+    <div class="container">
+      <div class="row gap-4 py-5">
+        <div style="max-width:fit-content;"data-aos="fade-right" class="col-12 col-md-12 col-lg-6">
+          <iframe width="424" height="438" src="https://www.youtube.com/embed/uM8qS7rm6KA" title="এক নজরে ই লার্নিং অ্যান্ড আর্নিং লিমিটেড  | বাংলাদেশের সবচেয়ে বড় আইটি পার্ক | E-Learning AV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div style="color:#1bbd36;"data-aos="fade-left" class="col-12 col-md-12 col-lg-6">
+          <p>
+            E-Learning and Earning Ltd. has been the foremost information technology service provider since 2016. The training programs of e-Learning and Earning Ltd. a wide range of skills that are integral and necessary parts of everyday business. In our quest to address every organizational development need, we offer a gamut of training programs, which ranges from Executive Coaching and Leadership Training to basic Communication Skills.
+          </p>
+          <ul>
+            <li>Practical & Project based IT Training</li>
+            <li>Customized Services and On-site Training</li>
+            <li>Soft Skill & Leadership Training</li>
+            <li>Skill/Career Development Services</li>
+          </ul>
+          <a style="text-decoration: none;color:#1bbd36;" href="#">View More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="our-cours">
+    <h3 id="c-runnig">OUR RUNNING COURSES</h3>
+    <div  class="container">
+      <div id="our-curs-item" class="row py-5">
+        <div class="col-12 col-md-4 col-lg-3">
+          <div class="img">
+            <div class="hover" style="width: 100%;height: 100%;overflow: hidden;">
+              <img class="runnig-img" src="https://e-laeltd.com/assets/img/latest-course/website-dev.jpg" alt="">
+              <div class="title">
+                <h4><a class="hover2" href="#">Website</a></h4>
+                <p class="text-center">Web Design & Development</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3">
+          <div class="img">
+            <div class="hover" style="width: 100%;height: 100%;overflow: hidden;">
+              <img class="runnig-img" src="https://e-laeltd.com/assets/img/latest-course/graphics-design.jpeg" alt="">
+              <div class="title">
+                <h4><a class="hover2" href="#">Software</a></h4>
+                <p class="text-center">Software Development</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <div class="img">
+            <div class="hover" style="width: 100%;height: 100%;overflow: hidden;">
+              <img class="runnig-img" src="https://e-laeltd.com/assets/img/latest-course/website-dev.jpg" alt="">
+              <div style="width:200px;" class="title">
+                <h4><a class="hover2" href="#">Digital Marketing</a></h4>
+                <p class="text-center">Web Design & Development</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <div class="img">
+            <div class="hover" style="width: 100%;height: 100%;overflow: hidden;">
+              <img class="runnig-img" src="https://e-laeltd.com/assets/img/latest-course/website-dev.jpg" alt="">
+              <div style="width: 200px;" class="title">
+                <h4><a class="hover2" href="#">Microsoft Office</a></h4>
+                <p class="text-center">Microsoft Office Specialist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="other-curse">
+    <h3>OTHER COURSES</h3>
+    <div class="container">
+      <div id="other-curs-item" class="row py-5">
+        <div class="col-12 col-md-4 col-lg-3">
+          <div class="img">
+            <div class="hover" style="width: 100%;height: 100%;overflow: hidden;">
+              <img class="runnig-img" src="https://e-laeltd.com/assets/img/latest-course/web-dev.jpg" alt="">
+              <div class="title">
+                <h4><a class="hover2" href="#">Website</a></h4>
+                <p class="text-center">Web Design & Development</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3">
+          <div class="img">
+            <div class="hover" style="width: 100%;height: 100%;overflow: hidden;">
+              <img class="runnig-img" src="https://e-laeltd.com/assets/img/latest-course/software.png" alt="">
+              <div class="title">
+                <h4><a class="hover2" href="#">Software</a></h4>
+                <p class="text-center">Software Development</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <div class="img">
+            <div class="hover" style="width: 100%;height: 100%;overflow: hidden;">
+              <img class="runnig-img" src="https://e-laeltd.com/assets/img/latest-course/graphicsd.jpg" alt="">
+              <div style="width:200px;" class="title">
+                <h4><a class="hover2" href="#">Graphic Design</a></h4>
+                <p class="text-center">Photoshop, Illustrator, etc</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <div class="img">
+            <div class="hover" style="width: 100%;height: 100%;overflow: hidden;">
+              <img class="runnig-img" src="https://e-laeltd.com/assets/img/latest-course/networking.jpg" alt="">
+              <div style="width: 200px;" class="title">
+                <h4><a class="hover2" href="#">Networking</a></h4>
+                <p class="text-center">Network Administration</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <div class="img">
+            <div class="hover" style="width: 100%;height: 100%;overflow: hidden;">
+              <img class="runnig-img" src="https://e-laeltd.com/assets/img/latest-course/app-dev.jpg" alt="">
+              <div class="title">
+                <h4><a class="hover2" href="#">App Development</a></h4>
+                <p class="text-center">Android & IOS Development</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3">
+          <div class="img">
+            <div class="hover" style="width: 100%;height: 100%;overflow: hidden;">
+              <img class="runnig-img" src="https://e-laeltd.com/assets/img/latest-course/freelancing.jpg" alt="">
+              <div class="title">
+                <h4><a class="hover2" href="#">Freelancing</a></h4>
+                <p class="text-center">Facebook, Web, Google</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <div class="img">
+            <div class="hover" style="width: 100%;height: 100%;overflow: hidden;">
+              <img class="runnig-img" src="https://e-laeltd.com/assets/img/latest-course/it-services.jpg" alt="">
+              <div style="width:200px;" class="title">
+                <h4><a class="hover2" href="#">IT Service & Business</a></h4>
+                <p class="text-center">Business Management</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <div class="img">
+            <div class="hover" style="width: 100%;height: 100%;overflow: hidden;">
+              <img class="runnig-img" src="https://e-laeltd.com/assets/img/latest-course/digital-market.jpg" alt="">
+              <div style="width: 200px;" class="title">
+                <h4><a class="hover2" href="#">Digital Marketing</a></h4>
+                <p class="text-center">Digital Marketing Training</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="facility" class="py-5">
+    <h3>OUR FACILITIES</h3>
+    <p class="text-center text-light py-3">Explore the weapons of Latest Information Technology!</p>
+    <div class="container">
+      <div id="facility-item" class="row gap-4 justify-content-center">
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div><i class="bi bi-speedometer2"></i></div>
+          <h5>24/7 Online Support</h5>
+          <p>
+            Our round-the-clock services are ready to listen to all the problems of the students. Whenever they have any problem, at any time of the day, even at night, we are always available to help you with your projects.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div><i class="bi bi-display"></i></div>
+          <h5>24/7 Online Support</h5>
+          <p>
+            Our round-the-clock services are ready to listen to all the problems of the students. Whenever they have any problem, at any time of the day, even at night, we are always available to help you with your projects.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div><i class="bi bi-camera-video-fill"></i></div>
+          <h5>24/7 Online Support</h5>
+          <p>
+            Our round-the-clock services are ready to listen to all the problems of the students. Whenever they have any problem, at any time of the day, even at night, we are always available to help you with your projects.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div><i class="bi bi-tv"></i></div>
+          <h5>24/7 Online Support</h5>
+          <p>
+            Our round-the-clock services are ready to listen to all the problems of the students. Whenever they have any problem, at any time of the day, even at night, we are always available to help you with your projects.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div><i class="bi bi-house-door-fill"></i></div>
+          <h5>24/7 Online Support</h5>
+          <p>
+            Our round-the-clock services are ready to listen to all the problems of the students. Whenever they have any problem, at any time of the day, even at night, we are always available to help you with your projects.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div><i class="bi bi-stack"></i></div>
+          <h5>24/7 Online Support</h5>
+          <p>
+            Our round-the-clock services are ready to listen to all the problems of the students. Whenever they have any problem, at any time of the day, even at night, we are always available to help you with your projects.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="video" class="py-5">
+    <h3 style="color:#232088;font-weight:bold;
+    ;"class='text-center'>Our Video Gallery</h3>
+    <div class="container">
+    <hr>
+    <div id="video-item" class="row justify-content-center py-5">
+      <div class="col-12 col-md-12 col-lg-4 mb-3">
+        <iframe width="100%" height="370" src="https://www.youtube.com/embed/h9_0X8zj14o" title="শুভ উদ্বোধন |  শিক্ষিত কর্মপ্রত্যাশি যুবদের ফ্রিল্যান্সিং প্রশিক্ষণের কর্মসংস্থান সৃষ্টি প্রকল্প" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="col-12 col-md-12 col-lg-4 mb-3">
+        <iframe width="100%" height="370" src="https://www.youtube.com/embed/uM8qS7rm6KA" title="এক নজরে ই লার্নিং অ্যান্ড আর্নিং লিমিটেড  | বাংলাদেশের সবচেয়ে বড় আইটি পার্ক | E-Learning AV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="col-12 col-md-12 col-lg-4 mb-3">
+        <iframe width="100%" height="369" src="https://www.youtube.com/embed/PxvfG6Md6GU" title="e-Learning &amp; Earning Limited" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <section id="upcoming" class="py-5">
+    <h3 class="h">UPCOMING SEMINARS / WORKSHOPS</h3>
+    <div class="container pt-5">
+    <div class="catagory-btn">
+      <div class="flex">
+        <span><i class="bi bi-display"></i></span><P>See Our Free Seminars / Workshops</P><span class="last-chilld"><i class="fa-solid fa-angle-down hover"></i></span>
+      </div>
+    </div>
+    </div>
+    <div class="container pt-3 pb-4">
+      <div class="catagory-btn">
+        <div class="flex">
+          <span><i class="bi bi-display"></i></span><P>See Our Upcoming Seminars</P><span class="last-chilld"><i class="fa-solid fa-angle-down hover"></i></span>
+        </div>
+      </div>
+      </div>
+  </section>
+  <section id="siter-consurn">
+    <div class="container py-5">
+      <div class="row">
+        <div data-aos="fade-right" class="col-12 col-md-6 col-lg-6 mb-3">
+          <div style="overflow: hidden;" class="hover-effect">
+            <img style="border-radius: 15px;transition:0.6s;" class="w-100"  src="https://e-laeltd.com/assets/img/slide/opening.jpg" alt="">
+          </div>
+        </div>
+        <div data-aos="fade-left" id="universary" class="col-12 col-md-6 col-lg-6 fs-6">
+          <div class="text text-center">
+            <p style="font-weight: 700;color:red;" class="fs-2">শুভ উদ্ধোধন অনুষ্ঠান</p>
+            <p style="font-weight: 700;;" class="fs-2">
+              শিক্ষিত কর্মপ্রত্যাশি যুবদের ফ্রিল্যান্সিং প্রশিক্ষণের মাধ্যমে কর্মসংস্থান সৃষ্টি প্রকল্প
+            </p>
+            <p>
+              যুব উন্নয়ন অধিদপ্তর, যুব ও ক্রীড়া মন্তণালয় কর্তৃক বাস্তবায়িত “শিক্ষিত কর্মপ্রত্যাশি যুবদের ফ্রিল্যান্সিং প্রশিক্ষণের মাধ্যমে কর্মসংস্থান সৃষ্টি প্রকল্প” শীর্ষক প্রকল্পের আওতায়
+            </p>
+            <p>
+              ৮টি বিভাগের ১৬টি জেলায় (ঢাকা, গোপালগঞ্জ, গাজীপুর, শরীয়তপুর, মাদারীপুর, রাজবাড়ী, কুমিল্লা, লহ্মীপুর, চাঁদপুর, রাজশাহী, নড়াইল, ঠাকুরগাঁও, ভোলা, শেরপুর, সিলেট ও সুনামগঞ্জ) ৩ মাস মেয়াদি (৬০০ ঘন্টা)
+            </p>
+            <p>
+              প্রশিক্ষণের শুভ উদ্ধোধন অনুষ্ঠান আগামী ২ মার্চ, ২০২৩ খ্রিঃ তারিখ, বৃহস্পতিবার, সকাল ১১.০০ ঘটিকায় ই-লার্নিং এন্ড আর্নিং লিঃ এর অডিটোরিয়াম, খাজা আইটি পার্ক, ৭ দক্ষিন কল্যাণপুর , ঢাকায় অনুষ্ঠিত হবে।
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h3 style="color:#232088;" class="text-center">Our Sister Concerns</h3>
+      <div class="container">
+        <hr>
+        <div class="thephoto mb-5">
+          <img style="margin-left:50px; width:200px; transition: 0.4s;"  src="https://e-laeltd.com/assets/img/click-logo.png" alt="">
+        </div>
+        <div class="working">
+          <h3 style="color:#232088;" class="text-center">We Are Working With</h3>
+          <hr>
+          <div class="ict mb-5">
+            <img src="https://e-laeltd.com/assets/img/jubo.jpg" alt="">
+            <img src="https://e-laeltd.com/assets/img/army.png" alt="">
+            <img src="https://e-laeltd.com/assets/img/ictdiv.png" alt="">
+            <img src="https://e-laeltd.com/assets/img/scc.png" alt="">
+            <img src="https://e-laeltd.com/assets/img/bteb.png" alt="">
+            <img src="https://e-laeltd.com/assets/img/db.png" alt="">
+          </div>
+          <div class="member mb-5">
+            <h3 style="color:#232088;" class="text-center">We Are Member Of</h3>
+            <hr>
+            <div class="basis">
+              <img src="https://e-laeltd.com/assets/img/basis.png" alt="">
+              <img src="https://e-laeltd.com/assets/img/bitm.png" alt="">
+              <img src="https://e-laeltd.com/assets/img/ecab.png" alt="">
+              <img src="https://e-laeltd.com/assets/img/comtia.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-------footer -------->
+<footer class="pt-5">
+  <div class="container">
+    <div class="row">
+      <div id="contact"class="col-12 col-md-6 col-lg-3">
+        <p style="font-size: 18px;font-weight: 700;">Contact Us</p>
+        <ul>
+          <li><i class="fa-solid fa-tty"></i> Telephone : +88 02-8091188</li>
+          <li><i class="fa-solid fa-phone"></i> Hotline : 01550666800, 01550666900</li>
+          <li><i class="fa-solid fa-envelope"></i>  Email : info@e-laeltd.com</li>
+          <li><i class="fa-solid fa-location-dot"></i> Head Office :
+            House # 1029,Road #09 | Avenue # 9A, Mirpur DOHS,Mirpur-12, Dhaka-1216</li>
+          <li><i class="fa-solid fa-location-dot"></i> Corporate Office :
+            Khaja Super Market, 2nd to 7th Floor, Kallyanpur Bus Stop, Mirpur Road, Dhaka-1207.</li>
+          <li><i class="fa-solid fa-location-dot"></i> UK Office :
+            3 PITSEA STREET E1 0JH London</li>
+        </ul>
+      </div>
+      <div id="usfullink" class="col-12 col-md-6 col-lg-3">
+        <p style="font-size: 18px;font-weight:700;">Useful Links</p>
+        <ul>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Home</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">About Us</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Blogs</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Admission</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">
+            Contact</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Privacy Policy</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Site Map</a></li>
+        </ul>
+      </div>
+      <div id="ourcours" class="col-12 col-md-6 col-lg-3">
+        <p style="font-size: 18px;font-weight: 700;">Our Courses</p>
+        <ul>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">
+            Basic Courses</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Software Development</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">
+            Hardware</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Database Administration</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">
+            Server & Network Administration</a></li>
+        </ul>
+      </div>
+      <div id="image" class="col-12 col-md-6 col-lg-3">
+        <img style="width:100%; border-radius:10px;transition: 0.4s;" src="https://e-laeltd.com/assets/img/about-home.jpg" alt="">
+
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <p style="font-size: 18px;font-weight: 600;" class="text-light">© Copyright e-laeltd.com. All Rights Reserved</p>
+  <div>
+    <div><a href="#"><i class="fa-brands fa-facebook"></i></a></div>
+    <div><a href="#"><i class="bi bi-twitter"></i></a></div>
+    <div><a href="#"><i class="bi bi-linkedin"></i></a></div>
+    <div><a href="#"><i class="bi bi-youtube"></i></a></div>
+  </div>
+</div>
+<div class="massage">
+  <i class="fa-brands fa-facebook-messenger"></i>
+  <p class="m-0">Send massage</p>
+</div>
+<a  href="https://www.whatsapp.com/" target="_blank">
+<div class="whatsapp">
+  <i class="fa-brands fa-square-whatsapp"></i>
+  <p class="m-0"> Whats App</p>
+</div>
+</a>
+<!-------bootstrap js ---->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<!--------swiper js ------>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<!-------- AOS JS --------->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!---------- myjs -------->
+  <script src="js/main.js"></script>
+</body>
+</html>
